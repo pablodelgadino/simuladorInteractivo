@@ -1,0 +1,31 @@
+ul{
+    list-style: none;
+    li{
+        display: inline;
+        padding: 15px;
+        a{
+            color: $color_text_nav;
+            text-decoration: none;
+            font-size: 1.2rem;
+            &:hover {
+                color: $color_text_nav_hover;
+                font-weight: bold;
+                text-decoration: dotted;
+                border: $color_text_nav_hover  5px inset;
+                border-radius: 4px;
+                padding: 10px;
+                transition-duration: 0.4s
+
+            }
+        }
+    }
+}
+
+.nav__menu{
+    text-decoration: none;
+    margin: 0.5rem;
+    font-family: cookie;
+    vertical-align: middle;
+}
+
+

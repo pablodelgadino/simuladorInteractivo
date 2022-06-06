@@ -1,0 +1,50 @@
+.bodyimg {
+    vertical-align:middle;
+    justify-content: right;
+}
+
+.img__bannertxt{
+    width: 2.5rem;
+    vertical-align: middle;
+    margin-bottom: 0.6rem;
+}
+            
+.img__logo{
+    width: 7rem;
+    
+}
+        
+.img__principal{
+    border-radius: 5%;
+    align-items: center;
+    text-align: center;
+}
+
+.img__quienesomos{
+    width:50%;
+    margin-left:10px ;
+    border-radius: 5%;
+    align-self: center;
+    justify-self: center;
+}
+
+.rotacion{
+    transform: rotate(3deg);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.img__fondoPr{
+    background-image: url(../images/fondoImgPrincipal.jpg);
+    background-size: cover;
+    border-top: 10px solid #FFE4C4;
+    border-right: 10px solid #CCB597;
+    border-bottom: 10px solid #FFE4C4;
+    border-left: 10px solid #CCB597;
+    margin-top:1rem;
+    margin-bottom: 1rem;
+}
+
+.img__redes{
+    width: 5rem;
+}

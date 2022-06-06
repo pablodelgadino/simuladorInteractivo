@@ -1,0 +1,33 @@
+$color_text_nav: whitesmoke;
+$color_text_nav_hover: gold;
+$color_background: #383838;
+$color_font: bisque;
+$size_imgpr: 25rem;
+$size_imgbanner: 1rem;
+$size_font_nav: 2rem;
+
+/* ----Mobile and Tablet Version---- */
+$headings: (
+        h1: 2rem,
+        h2: 1.25rem,
+        h3: 1rem,
+        h4: 0.75rem,
+);
+$h1:map-get($headings , h1);
+$h2:map-get($headings , h2);
+$h3:map-get($headings , h3);
+$h4:map-get($headings , h4);
+
+/* ----Desktop Version---- */
+$Largeheadings: (
+        h1: 4rem,
+        h2: 2.5rem,
+        h3: 2rem,
+        h4: 1.5rem,
+);
+$h1L:map-get($Largeheadings , h1);
+$h2L:map-get($Largeheadings , h2);
+$h3L:map-get($Largeheadings , h3);
+$h4L:map-get($Largeheadings , h4);
+
+
